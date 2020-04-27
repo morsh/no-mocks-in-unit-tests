@@ -18,7 +18,7 @@ export class DogPicture extends React.PureComponent<{}, State> {
     }
 
     return (
-      <img src={this.state.dogImageUrl} alt='Dog' />
+      <img src={this.state.dogImageUrl} alt='Dog' data-testid="dog-image" />
     )
   }
 }
